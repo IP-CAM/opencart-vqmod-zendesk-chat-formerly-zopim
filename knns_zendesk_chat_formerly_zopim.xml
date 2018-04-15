@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<modification>
-		<id>[VQMOD] Zendesk Live Chat (formerly Zopim)</id>
+		<id><![CDATA[[VQMOD] Zendesk Live Chat (formerly Zopim)]]></id>
 		<version>1.0.0</version>
 		<vqmver>2.6.3</vqmver>
 		<author>kanenas.net (aka Nikolas Branis) - nbran@kanenas.net</author>
