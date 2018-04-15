@@ -1,1 +1,1 @@
-# opencart-vqmod-zendesk-chat-formerly-zopim
+# [VQMOD] Zendesk Live Chat (formerly Zopim)
