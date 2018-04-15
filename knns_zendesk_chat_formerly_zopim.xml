@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<modification>
-		<id>[VQMOD] Zopim Live Chat</id>
+		<id>[VQMOD] Zendesk Live Chat (formerly Zopim)</id>
 		<version>1.0.0</version>
 		<vqmver>2.6.3</vqmver>
 		<author>kanenas.net (aka Nikolas Branis) - nbran@kanenas.net</author>
@@ -17,7 +17,7 @@ $.src="https://v2.zopim.com/?xxxxxxxxxxxxxxxxxxxxxxxxxxxx";z.t=+new Date;$.
 type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
 </script>
 <!--End of Zendesk Chat Script-->
-					]]></add>
+				]]></add>
 			</operation>
 		</file>
 	</modification>
