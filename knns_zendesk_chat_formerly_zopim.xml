@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<modification>
+		<id>[VQMOD] Zopim Live Chat</id>
+		<version>1.0.0</version>
+		<vqmver>2.6.3</vqmver>
+		<author>kanenas.net (aka Nikolas Branis) - nbran@kanenas.net</author>
+		<file name="catalog/view/theme/*/template/common/header.tpl" error="log">
+			<operation error="skip">
+				<search position="before"><![CDATA[</head>]]></search>
+				<add><![CDATA[
+<!--Start of Zendesk Chat Script-->
+<script type="text/javascript">
+window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
+$.src="https://v2.zopim.com/?xxxxxxxxxxxxxxxxxxxxxxxxxxxx";z.t=+new Date;$.
+type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
+</script>
+<!--End of Zendesk Chat Script-->
+					]]></add>
+			</operation>
+		</file>
+	</modification>
