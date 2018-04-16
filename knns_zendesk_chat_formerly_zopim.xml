@@ -4,7 +4,7 @@
 		<version>1.0.0</version>
 		<vqmver>2.6.3</vqmver>
 		<author>kanenas.net (aka Nikolas Branis) - nbran@kanenas.net</author>
-		<file name="catalog/view/theme/*/template/common/header.tpl" error="log">
+		<file path="catalog/view/theme/*/template/common/" name="header.tpl" error="log">
 			<operation error="skip">
 				<search position="before"><![CDATA[</head>]]></search>
 				<add><![CDATA[
